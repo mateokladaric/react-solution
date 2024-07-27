@@ -1,0 +1,132 @@
+.root,
+body,
+html {
+    margin: 0px;
+    background-image: url("https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFF;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1024px;
+    margin: 0px auto;
+    backdrop-filter: blur(30px);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+    font-weight: 600;
+}
+
+.centerPad {
+    max-width: 1024px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 2rem;
+    border: 2px solid white;
+    backdrop-filter: blur(30px);
+    border-radius: 2rem;
+    z-index: 10;
+}
+
+th {
+    padding: 1rem;
+    border-bottom: 2px solid white;
+    background-color: rgba(152, 31, 31, 0.384);
+    cursor: pointer;
+}
+
+th:first-child {
+    border-top-left-radius: 1rem;
+}
+
+th:last-child {
+    border-top-right-radius: 1rem;
+}
+
+th:hover {
+    background-color: rgba(152, 31, 31, 0.75);
+}
+
+td {
+    padding: 0.25rem;
+    border-bottom: 1px solid white;
+}
+
+tr:nth-child(even) td {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+tr:nth-child(odd) td {
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+tr:last-child td {
+    border-bottom: 2px solid white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 2rem 4rem;
+    border: 2px solid white;
+    backdrop-filter: blur(30px);
+    border-radius: 2rem;
+    z-index: 10;
+}
+
+input {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+}
+
+input:focus {
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+label {
+    margin-top: 1rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    margin: 1.35rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.50);
+}
